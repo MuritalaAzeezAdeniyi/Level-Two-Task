@@ -3,10 +3,10 @@ package employee;
 public class Employee {
     private int id;
     private String name;
-    private String salary;
+    private double salary;
     private String position;
 
-    public Employee(int id, String name, String salary, String position) {
+    public Employee(int id, String name, double salary, String position) {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -30,11 +30,11 @@ public class Employee {
         this.name = name;
     }
 
-    public String getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
