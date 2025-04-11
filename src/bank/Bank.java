@@ -30,4 +30,8 @@ public class Bank {
             System.out.println("Withdraw $" + amount);
         }
       }
+
+      public void checkBalance(){
+        System.out.println(this.name + " balance $" + this.balance);
+      }
 }
